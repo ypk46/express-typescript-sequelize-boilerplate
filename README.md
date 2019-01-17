@@ -43,8 +43,8 @@ If you have an instance of a DB then you can go to the next step and connect dir
     docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Pass1234@' -p 1433:1433 -d --name mssql-container mcr.microsoft.com/mssql/server:2017-latest
 
 After that, we will access the container and create a new database
+
     docker exec -it mssql-container /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pass1234@
-    <!-- A SQL CMD will start -->
     1> CREATE DATABASE sql_test_db
     2> GO
     1> EXIT
@@ -65,9 +65,11 @@ If you want to watch changes then run
 ### Build Docker Image
 
 Using a terminal open in the root folder run
+
     docker build -t <IMAGE-NAME> .
 
 Then you can run the image with
+
     docker run -p 3000:3000 -d <IMAGE-NAME>
 
 ## Upcoming
