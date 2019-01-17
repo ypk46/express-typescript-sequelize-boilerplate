@@ -1,6 +1,6 @@
 # Express Typescript Sequelize Boilerplate
 
-![NodeJS](http://nodejs-cloud.com/img/128px/nodejs.png) ![Express](http://appi.ly/images/tech-small/express.png) ![Typescript](https://releasebutler.now.sh/images/typescript.png) ![Sequelize](https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/101/square_128/sequelizelogo.png)
+![NodeJS](https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/256/square_128/nodejslogo.png) ![Express](http://appi.ly/images/tech-small/express.png) ![Typescript](https://releasebutler.now.sh/images/typescript.png) ![Sequelize](https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/101/square_128/sequelizelogo.png)
 
 A flexible boilerplate (IMO) for Express Typescript using Sequelize as ORM with Docker Support and some scripts to get you started.
 
@@ -76,10 +76,14 @@ Then you can run the image with
 
     docker run -p 3000:3000 -d <IMAGE-NAME>
 
+### Postman Collection (Optional)
+
+I added a Postman Collection so you just have to import the `boilerplate-postman-collection.json` in Postman and test the server user's CRUD operations.
+
 ## Upcoming
 
 - [x] Fix Docker support
-- [ ] Add full CRUD
+- [x] Add full CRUD
 - [ ] Add unit testing module
 - [ ] Improved README
  
