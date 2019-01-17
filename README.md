@@ -53,7 +53,7 @@ After that, we will access the container and create a new database
 
 Copy  `.env.example`  and rename it  `.env` . Here you will have to fill the database connection data. 
 
-If you followed the *Setup Database with Docker (Optional)* then the connection information should be already set except for the `DB_HOST` which may be `localhost` if you are using Docker with Hyper-V or an `IP` if you are using Docker Toolbox.
+If you followed the *Setup Database with Docker (Optional)* then the connection information should be already set except for the `DB_HOST` which may be `localhost` if you are using Docker or an `IP` if you are using Docker Toolbox.
 
 The project is setup to use MS SQL but Sequelize supports multiple SQL Databases like MySQL, SQLite and PostgreSQL.
 
