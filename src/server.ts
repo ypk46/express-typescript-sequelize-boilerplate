@@ -29,6 +29,7 @@ export default class Server {
         this.expressInstance.use(cors());
 
         // Setup requests format parsing (Only JSON requests will be valid)
+        this.expressInstance.use(bodyParser.urlencoded({ extended: true }));
         this.expressInstance.use(bodyParser.json());
 
     }
