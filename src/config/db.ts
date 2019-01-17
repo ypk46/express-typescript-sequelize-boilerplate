@@ -46,5 +46,10 @@ export default class Database {
             .catch(err => {
                 console.error('Unable to connect to the database:', err);
             });
+
+        this.database.sync({
+            // Using 'force' will drop any table defined in the models and create them again.
+            // force: true
+        })
     }
 }
