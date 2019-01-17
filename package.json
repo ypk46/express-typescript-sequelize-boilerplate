@@ -16,7 +16,6 @@
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
-    "express-status-monitor": "^1.2.3",
     "helmet": "^3.15.0",
     "sequelize": "^4.42.0",
     "tedious": "^4.1.3"
