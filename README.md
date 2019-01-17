@@ -1,6 +1,6 @@
 # Express Typescript Sequelize Boilerplate
 
-![NodeJS](https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png)
+![NodeJS](http://nodejs-cloud.com/img/128px/nodejs.png) ![Express](http://appi.ly/images/tech-small/express.png) ![Typescript](https://releasebutler.now.sh/images/typescript.png) ![Sequelize](https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/101/square_128/sequelizelogo.png)
 
 A flexible boilerplate (IMO) for Express Typescript using Sequelize as ORM with Docker Support and some scripts to get you started.
 
