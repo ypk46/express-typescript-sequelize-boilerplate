@@ -80,6 +80,8 @@ Then you can run the image with
 
 I added a Postman Collection so you just have to import the `boilerplate-postman-collection.json` in Postman and test the server user's CRUD operations.
 
+*This part is just for testing purpose and actually is not require for the boilerplate.*
+
 ## Upcoming
 
 - [x] Fix Docker support
