@@ -48,3 +48,11 @@ Copy `.env.example` and rename it `.env`. Here you will have to fill the databas
 If you want to watch changes then run
 
     yarn watch
+
+## Upcoming
+
+- [ ] Fix Docker support
+- [ ] Add scripts for initializing database
+- [ ] Add unit testing module
+- [ ] Improved README
+ 
