@@ -19,7 +19,13 @@ export default class MainRouter {
 
     private userRoutes() {
         this.router.route('/users')
-            .get(this.userController.readAll);
+            .get(this.userController.readAll)
+            .post(this.userController.create);
+
+        this.router.route('/users/:id')
+            .get(this.userController.read)
+            .put(this.userController.update)
+            .delete(this.userController.delete);
     }
 
 
